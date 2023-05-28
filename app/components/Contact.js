@@ -43,6 +43,12 @@ const Contact = () => {
               name="message"
               required></input>
           </p>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://mohammedwasik.github.io/Portfolio-1/"
+          />
+
           <button>Send Message</button>
           <div className="contact-div bg-teal-600 tracking-widest ">
             <span class="fa fa-envelope-o "></span>{" "}
