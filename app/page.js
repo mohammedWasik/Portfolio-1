@@ -20,7 +20,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white dark:bg-gray-900">
         <section className="min-h-screen  dark:bg-gray-900">
-          {/* <ParticlesBG /> */}
+          <ParticlesBG />
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Description />
           <Technologies />
