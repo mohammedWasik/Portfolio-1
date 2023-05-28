@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="form-div ">
         <form
           class="form dark:bg-[#0e1421]"
-          action="https://formsubmit.co/mashrukmohammedwasik@gmail.com"
+          action="https://formsubmit.co/b82188eb0eb9f30f0a52192a359be720"
           method="POST">
           <h2 className="text-4xl pb-5 mb-4 fancy-link text-teal-600">
             CONTACT
