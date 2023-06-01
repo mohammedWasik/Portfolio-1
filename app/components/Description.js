@@ -57,7 +57,7 @@ const Description = () => {
         />
         <div class="middle">
           <div class="text dark:text-white tracking-wider">
-            Me, in my natural form
+            Me, in my natural habitat.
           </div>
         </div>
       </div>
