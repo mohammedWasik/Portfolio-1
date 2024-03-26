@@ -21,7 +21,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         </li>
         <li className="">
           <a
-            href="#"
+            href="../assets/Resume.pdf"
+            download="Mohammed_Wasik.pdf"
             className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md p-3 hover:from-cyan-800 hover:to-teal-400">
             Resume
           </a>
