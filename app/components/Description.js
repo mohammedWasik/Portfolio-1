@@ -16,17 +16,13 @@ const Description = () => {
         </h1>
         <h2 className=" text-3xl py-2 md:text-3xl">
           <span className="font-barlow fancy-link z-10 pb-2">
-            Full Stack Web Developer
+            Software Engineer
           </span>
         </h2>
         <p className="text-xl pt-3  leading-8 bar-cond md:text-2xl max-w-xl mx-auto">
           <span className="">
-            I love coding and right now in love with MERN stack and trying to
-            cook up new stuff with this particular stack. Other than web
-            development I also like experimenting with other sub-fields under
-            the umbrella which is CS. I prefer linux over the other alternatives
-            and one of my hobby is distro hopping and trying out custom setup
-            from reddit .
+      I’m passionate about coding and currently exploring opportunities in Quality Assurance. With hands-on experience in Salesforce development, manual testing, and UAT, I enjoy ensuring software quality while continuously refining my technical skills.
+Beyond QA and development, I love diving into different areas of computer science, experimenting with new technologies, and optimizing workflows. I’m also a Linux enthusiast, always on the lookout for the perfect distro and custom setups from the community. When I’m not debugging code or testing software, you’ll likely find me distro-hopping and exploring new configurations.
           </span>
         </p>
       </div>
