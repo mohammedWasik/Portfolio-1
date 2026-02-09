@@ -6,7 +6,7 @@ import "../assets/components.css";
 
 function Navbar({ activeSection, setActiveSection }) {
   return (
-    <nav className="sticky top-0 z-30 flex flex-row items-center justify-between gap-2 px-4 py-4 md:py-10 capitalize md:grid md:grid-cols-[1fr_auto_1fr] md:items-center md:gap-4 md:px-20 lg:px-28 bg-white isolate">
+    <nav className="sticky top-0 z-30 flex flex-row items-center justify-between gap-2 px-4 py-4 md:py-10 capitalize md:grid md:grid-cols-[1fr_auto_1fr] md:items-center md:gap-4 md:px-20 lg:px-28 bg-slate-50 isolate">
       <h1
         className="text-lg sm:text-xl md:text-3xl bar-cond cursor-pointer text-slate-900 truncate min-w-0 md:justify-self-start"
         onClick={() => window.location.reload()}>
