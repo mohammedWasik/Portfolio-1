@@ -17,7 +17,7 @@ function Navbar({ activeSection, setActiveSection }) {
       </div>
       <div className="shrink-0 w-fit md:justify-self-end">
         <a
-          href="/Mohammed_Wasik_Resume.pdf"
+          href="./Mohammed_Wasik_Resume.pdf"
           download="Mohammed_Wasik_Resume.pdf"
           className="inline-block bg-blue-600 text-white rounded-md px-2 py-1.5 md:p-3 hover:bg-blue-500 text-xs md:text-base font-medium whitespace-nowrap transition-colors">
           Resume
