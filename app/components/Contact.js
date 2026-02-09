@@ -6,17 +6,17 @@ const Contact = () => {
     <div className="text-center pb-20">
       {/* <div id="text-center">
         <h1>
-          <span className="uppercase text-4xl fancy-link text-teal-600 tracking-widest">
+          <span className="uppercase text-4xl fancy-link text-blue-600 tracking-widest">
             Contact
           </span>
         </h1>
       </div> */}
       <div className="form-div ">
         <form
-          class="form dark:bg-[#0e1421]"
+          className="form"
           action="https://formsubmit.co/b82188eb0eb9f30f0a52192a359be720"
           method="POST">
-          <h2 className="text-4xl pb-5 mb-4 fancy-link text-teal-600">
+          <h2 className="text-4xl pb-5 mb-4 fancy-link text-blue-600">
             CONTACT
           </h2>
           <p type="Name :">
@@ -33,7 +33,7 @@ const Contact = () => {
           </p>
           <p type="Email Subject :">
             <input
-              placeholder="Let me know about the Udessho.."
+              placeholder="Let me know the subject.."
               name="subject"
               required></input>
           </p>
@@ -50,8 +50,8 @@ const Contact = () => {
           />
 
           <button>Send Message</button>
-          <div className="contact-div bg-teal-600 tracking-widest ">
-            <span class="fa fa-envelope-o "></span>{" "}
+          <div className="contact-div bg-blue-600 tracking-widest ">
+            <span class="fa fa-envelope-o"></span>{" "}
             mashrukmohammedwasik@gmail.com
           </div>
         </form>

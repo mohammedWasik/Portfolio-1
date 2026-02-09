@@ -1,9 +1,10 @@
 "use client";
+
 import React, { useState } from "react";
-import Image from "next/image";
 import {
   Contact,
   Description,
+  Experience,
   Navbar,
   ParticlesBG,
   Projects,
@@ -14,18 +15,27 @@ import "slick-carousel/slick/slick-theme.css";
 import "react-tooltip/dist/react-tooltip.css";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [activeSection, setActiveSection] = useState("experience");
 
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white dark:bg-gray-900">
-        <section className="min-h-screen  dark:bg-gray-900">
+    <div>
+      <main className="bg-slate-50">
+        <section className="min-h-screen bg-slate-50 pb-16 md:pb-24">
           <ParticlesBG />
-          <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
           <Description />
-          <Technologies />
-          <Projects />
-          <Contact />
+          <div className={activeSection === "experience" ? "block" : "block md:hidden"}>
+            <Experience />
+          </div>
+          <div className={activeSection === "skills" ? "block" : "block md:hidden"}>
+            <Technologies />
+          </div>
+          <div className={activeSection === "projects" ? "block" : "block md:hidden"}>
+            <Projects />
+          </div>
+          <div className={activeSection === "contact" ? "block" : "block md:hidden"}>
+            <Contact />
+          </div>
         </section>
       </main>
     </div>

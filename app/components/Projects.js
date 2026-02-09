@@ -43,18 +43,47 @@ const Projects = () => {
     // autoplaySpeed: 7000,
   };
   return (
-    <div className="my-15 px-5 lg:p-5 dark:text-white">
-      <div className="  dark:text-white">
+    <div className="my-15 mt-24 px-5 lg:p-5 text-slate-800">
+      <div className="  ">
         <h2 className="text-center ">
-          <span className="text-4xl uppercase fancy-link tracking-widest text-teal-600">
+          <span className="text-4xl uppercase fancy-link tracking-widest text-blue-600">
             Projects
           </span>
         </h2>
       </div>
       <div className="text-center project-image-div ">
+        <div className="w-9/12 mx-auto my-20 p-div p-6 md:p-8">
+          <h3 className="text-2xl uppercase tracking-widest text-blue-600 mb-8 font-semibold">QA & Testing Projects</h3>
+          <div className="grid gap-6 mb-16 text-left text-slate-700">
+            <div className="p-5 rounded-xl border border-slate-300 bg-slate-100">
+              <h4 className="text-blue-600 font-semibold text-lg mb-2">
+                <a href="https://github.com/mohammedWasik/Bikroy-Manual-Testing" target="_blank" rel="noopener noreferrer" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
+                  Manual Testing | Bikroy Web Application
+                </a>
+              </h4>
+              <p className="text-sm">End-to-end manual testing on the Bikroy platform: requirement analysis, test case design, execution, and defect reporting. Maintained structured test documentation and version-controlled test artifacts.</p>
+            </div>
+            <div className="p-5 rounded-xl border border-slate-300 bg-slate-100">
+              <h4 className="text-blue-600 font-semibold text-lg mb-2">
+                <a href="https://github.com/mohammedWasik/Wikipedia_Selenium" target="_blank" rel="noopener noreferrer" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
+                  Wikipedia Automation | Selenium, Java
+                </a>
+              </h4>
+              <p className="text-sm">Automated validation of search, navigation, and content rendering using Selenium WebDriver.</p>
+            </div>
+            <div className="p-5 rounded-xl border border-slate-300 bg-slate-100">
+              <h4 className="text-blue-600 font-semibold text-lg mb-2">
+                <a href="https://github.com/mohammedWasik/Accuweather-Selenium" target="_blank" rel="noopener noreferrer" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
+                  AccuWeather Automation | Selenium, Java
+                </a>
+              </h4>
+              <p className="text-sm">Automated critical weather search and data validation workflows using modular Selenium-based automation architecture.</p>
+            </div>
+          </div>
+        </div>
         <div className="w-9/12 mx-auto my-20  p-div">
           <h2
-            className="text-teal-700 my-2 "
+            className="text-blue-700 my-2 "
             onClick={() => {
               window.open(
                 "https://ai-image-generator-g1vh.vercel.app/",
@@ -90,7 +119,7 @@ const Projects = () => {
             onClick={() => {
               window.open("https://crud-client-psi.vercel.app/", "_blank");
             }}
-            className="text-teal-700 my-2 ">
+            className="text-blue-700 my-2 ">
             {" "}
             <span className="fancy-link p-1 text-xl ">CRUD App using Mern</span>
           </h2>
@@ -121,7 +150,7 @@ const Projects = () => {
                 "_blank"
               );
             }}
-            className="text-teal-700 my-2">
+            className="text-blue-700 my-2">
             {" "}
             <span className="fancy-link p-1 text-xl">Rick & Morty Wiki</span>
           </h2>
@@ -151,7 +180,7 @@ const Projects = () => {
 
         <div className="w-9/12 mx-auto mb-20  p-div">
           <h2
-            className="text-teal-700 my-2"
+            className="text-blue-700 my-2"
             onClick={() => {
               window.open(
                 "https://youtube-clone-react-mow.netlify.app/",
@@ -181,7 +210,7 @@ const Projects = () => {
                 "_blank"
               );
             }}
-            className="text-teal-700 my-2">
+            className="text-blue-700 my-2">
             {" "}
             <span className="fancy-link p-1 text-xl">
               Space Tourism From FrontEndMentorIO
